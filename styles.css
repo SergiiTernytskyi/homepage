@@ -340,6 +340,10 @@ body {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+.projects__item.start {
+  min-height: 50px;
+}
+
 .projects__item:not(:last-child) {
   margin-bottom: 16px;
 }
