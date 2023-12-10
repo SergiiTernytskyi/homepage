@@ -13,7 +13,7 @@ export const skillsLogoListMarkup = () => {
 };
 
 export const createProjectsMarkup = () => {
-  return `<li class="projects__item">Web Studio, IceCream, Filmoteka, Phonebook, So Yummy
+  return `<li class="projects__item start">Web Studio, IceCream, Filmoteka, Phonebook, So Yummy
                   (Back-end), So Yummy (Front-end)</li>`;
 };
 
