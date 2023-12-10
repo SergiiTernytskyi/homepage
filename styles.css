@@ -87,7 +87,7 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contact-info__block--center {
@@ -99,6 +99,7 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: start;
+  align-items: center;
 }
 
 .contact-info__item:not(:last-child) {
@@ -123,8 +124,8 @@ body {
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
