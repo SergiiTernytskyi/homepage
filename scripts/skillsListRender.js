@@ -2,7 +2,6 @@ import { skillsListMarkup, skillsLogoListMarkup } from "./createMarkup.js";
 
 const skills = document.querySelector("[data-logo-lost-show]");
 const softSkills = document.querySelector(".hard-skills");
-console.log(skills);
 
 const renderSkillsList = () => {
   softSkills.innerHTML = skillsListMarkup();
